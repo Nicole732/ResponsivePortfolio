@@ -1,5 +1,5 @@
 
-/* Styling on all pages*/
+
 body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -16,43 +16,11 @@ h1 {
 
 }
 
-/*.container-main {
-    width: 600px;
-    height: 250px;
-}*/
-
-
-/* Styling Affecting Index Page only*/
 
 .img-index {
     width: 200px;
     height: 200px;
 }
-
-
-/* Styling Affecting Portfolio Page only*/
-
-/* Styling Affecting Contact Page only Page only*/
-
-
-/*#brandname {
-    height: 100%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    
-}
-
-#nav-left {
-    float:right;
-
-}
-
-.positionbottom{
-    position: fixed;
-    float: left;
-
-}*/
-
 
 
 /*Media Queries */
@@ -66,8 +34,7 @@ h1 {
 
     .nav {
         float: left;
-
-    }
+}
   }
 
 /* Browser 768 or less */
