@@ -1,0 +1,88 @@
+
+/* Styling on all pages*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background: #eee;
+}
+
+h1 {
+    color: green;
+}
+
+.footer {
+    overflow: none;
+    clear: both;
+
+}
+
+/*.container-main {
+    width: 600px;
+    height: 250px;
+}*/
+
+
+/* Styling Affecting Index Page only*/
+
+.img-index {
+    width: 200px;
+    height: 200px;
+}
+
+
+/* Styling Affecting Portfolio Page only*/
+
+/* Styling Affecting Contact Page only Page only*/
+
+
+/*#brandname {
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+#nav-left {
+    float:right;
+
+}
+
+.positionbottom{
+    position: fixed;
+    float: left;
+
+}*/
+
+
+
+/*Media Queries */
+
+/* Browser 640 or less */
+@media screen and (max-width: 640px) {
+  
+    .container{
+        width: 600px;
+    }
+
+    .nav {
+        float: left;
+
+    }
+  }
+
+/* Browser 768 or less */
+@media screen and (max-width: 768px) {
+    .container{
+        width: 700px;
+    }
+    .nav {
+        float:left;
+    }
+}
+
+/* Browser 980 or less */
+@media screen and (max-width: 980px) {
+    .container{
+        width: 900px;
+    }
+}
