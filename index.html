@@ -24,22 +24,20 @@
 <body>
 
   <header>
-    <!-- Start 2 NavBars - on floating left and the other right - check ml-->
-    <div class="container bg-light pl-0">
-      <div class="row">
+    <!-- Start 2 NavBars - Responsiveness Handle with Media Queries -->
+    <div class="container-fluid bg-light">
 
-        <div class="col">
+      <div class="row wrapper">
 
-          <nav class="navbar navbar-expand-lg navbar-light bg-light float-left">
-            <a class="navbar-brand p-3 bg-success text-white" href="#">Dorine Ketchiozo</a>
+        <div class="col-sm-12 col-md-6 first-nav">
 
-          </nav>
+          <a class="navbar-brand p-3 ml-0 bg-success text-white" href="#">Dorine Ketchiozo</a>
+
         </div>
 
-        <div class="col">
-
+        <div class="col-sm-12 col-md-6 second-nav">
           <nav>
-            <ul class="nav justify-content-end floatright>">
+            <ul class="nav justify-content-end>">
               <li class="nav-item">
                 <a class="nav-link active text-dark" href="index.html">About Me </a>
               </li>
@@ -50,31 +48,34 @@
                 <a class="nav-link text-dark border-left" href="contact.html">Contact</a>
               </li>
 
-            </ul>
-          </nav> 
-        </div> 
-      </div> 
-    </header> 
+    </nav>
+
+    </header>
+   
     <!-- End Nav Bar -->
 
 
-          <!-- Main Content -->
+        <!-- Main Content -->
           <main>
             <div class="container bg-light justify-content-end pt-4 mt-4 mb-4">
               <div class="row pl-4">
-                <h1>About Me</h1>
+                <div class="col">
+                  <h1>About Me</h1>
+                </div>
+                
               </div>
 
               <!-- Image and text in same row - text wrapping-->
               <div class="row border-top pt-4 pl-4 bg-light">
                 <div class="col">
-                  <img class="float-left pr-4 img-index" src="assets/images/photoiddorine.jpg" alt="Dorine Ketchiozo">
-
-                  <p>I am a passionate, hard working and very motivated professional. 
+                  <img class="float-left pr-4 mb-4 img-index" src="assets/images/photoiddorine.jpg" alt="Dorine Ketchiozo">
+                  
+                  <p class="text-sm-left">I am a passionate, hard working and very motivated professional. 
                     I have worked as a webmaster/ Content Editor for the past 15 years 
                     in a multi-cultural, multi-tasking, and constantly involving U.S. 
                     State Department Mission overseas.</p>
-                  <p>
+                
+                  <p class="text-sm-left">
                     I diligently and professionally 
                    managed of my institutions' web and social media presence, including several migration projects to new website designs.
                    I enrolled to UNC Charlotte Full Flex coding Bootcamp to upgrade my coding skills. 
@@ -82,11 +83,14 @@
                    I was able to acquire these skills during the bootcamp.
 
                   </p>
-                  <p> Today as a web developer, I provide great customer service to businesses and individual
+                
+                  <p class="text-sm-left"> Today as a web developer, I provide great customer service to businesses and individual
                     by building professional, mobile responsive, SEO friendly and secured websites. My <a href="portfolio.html" target="_blank">portfolio </a>will showcase the project that I have deployed so far.
                     Do not hesitate to contact me, through the <a href="contact.html" target="_blank">contact form</a>, to bring to live your next web design project or to join your team.
 
                   </p>
+                </div>
+                  
                 </div>
 
               </div>
@@ -98,7 +102,7 @@
 
         </main>
 
-        <footer class="footer mb-0">
+        <footer class="footer mb-0 container-fluid">
           <div class="card-footer text-center text-white bg-dark border-top border-success">
             &#169; Copyright
           </div>

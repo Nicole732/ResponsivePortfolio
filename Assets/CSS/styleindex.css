@@ -1,4 +1,7 @@
+* {
+    box-sizing: border-box;
 
+}
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -22,34 +25,66 @@ h1 {
     height: 200px;
 }
 
+.nav {
+    float: right;
+}
+
+.wrapper {
+    width: 100%;
+    margin-left: 10px auto; 
+
+}
+.container {
+    padding-left: 20px;
+
+}
+
+.first-nav{
+    float: left;
+    
+}
+
+.second-nav {
+    float: right;
+    
+}
+
 
 /*Media Queries */
 
 /* Browser 640 or less */
 @media screen and (max-width: 640px) {
-  
-    .container{
-        width: 600px;
+
+    
+
+    p {
+        float: left;
+        padding-bottom:10px;
+        text-align: left;
     }
 
-    .nav {
-        float: left;
 }
-  }
 
 /* Browser 768 or less */
 @media screen and (max-width: 768px) {
-    .container{
-        width: 700px;
+    
+    .second-nav {
+        
+        margin-left: 0;
+        padding-left: 0;
+        
     }
-    .nav {
-        float:left;
-    }
+    
 }
 
 /* Browser 980 or less */
 @media screen and (max-width: 980px) {
-    .container{
-        width: 900px;
+
+    .second-nav {
+        float: none;
+        margin-left: 0;
+        padding-left: 0;
+        
     }
 }
+   

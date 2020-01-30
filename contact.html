@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
 
     <!-- Link to Customizing Style Sheet -->
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/stylecontact.css">
 
     <title>Contact</title>
   </head>
@@ -22,48 +22,47 @@
   <body>
     <!-- To copy working nav from index -->
     <header>
-      <!-- Start 2 NavBars - on floating left and the other right - check ml-->
-      <div class="container bg-light pl-0">
-        <div class="row">
-
-          <div class="col">
-
-             <nav class="navbar navbar-expand-lg navbar-light bg-light float-left">
-              <a class="navbar-brand p-3 bg-success text-white" href="#">Dorine Ketchiozo</a>
-      
-            </nav>
-            <nav >
-                <ul class="nav justify-content-end float-right>">
-                  <li class="nav-item">
-                    <a class="nav-link active text-dark" href="index.html">About Me  </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-dark border-left" href="portfolio.html">Portfolio  </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-dark border-left" href="contact.html">Contact</a>
-                  </li>
-          
-                </ul>
-            </nav>
+      <!-- Start 2 NavBars - Responsiveness Handle with Media Queries -->
+      <div class="container-fluid bg-light">
+  
+        <div class="row wrapper">
+  
+          <div class="col-sm-12 col-md-6 first-nav">
+  
+            <a class="navbar-brand p-3 ml-0 bg-success text-white" href="#">Dorine Ketchiozo</a>
+  
           </div>
-        </div>
-
-      </div>
-
-    </header>
-    <!-- End Nav Bar -->
+  
+          <div class="col-sm-12 col-md-6 second-nav">
+            <nav>
+              <ul class="nav justify-content-end>">
+                <li class="nav-item">
+                  <a class="nav-link active text-dark" href="index.html">About Me </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark border-left" href="portfolio.html">Portfolio </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark border-left" href="contact.html">Contact</a>
+                </li>
+  
+      </nav>
+  
+      </header>
 
 
     <main>
-      <div class="container">
+      <div class="container bg-light mt-4">
 
-        <div class="row">
+        <div class="row wrapper">
           <div class="col">
-              <h1>Contact</h1>
+              
+              <h1 class="border-bottom pb-4">Contact</h1>
+           
+             
               <!-- Begining of form -->
 
-              <form>
+              <form>  
                 <div class="form-group">
                   <label for="inputAddress">Name</label>
                   <input type="text" class="form-control" id="inputName" placeholder="John Smith">
@@ -88,9 +87,6 @@
       </div>
 
     </main>
-
-   
-    <!-- To copy working footer fron index -->
 
 
 
