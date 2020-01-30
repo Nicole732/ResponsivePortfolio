@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background: #eee;
+}
+
+h1 {
+    color: green;
+}
+
+
+
+
+.img-index {
+    width: 250px;
+    height: 200px;
+}
+
+.nav {
+    float: right;
+}
+
+.wrapper {
+    width: 100%;
+    margin-left: 10px auto; 
+
+}
+.container {
+    padding-left: 20px;
+
+}
+
+.first-nav{
+    float: left;
+    
+}
+
+.second-nav {
+    float: right;
+    
+}
+
+
+img {
+    width: 150px;
+    height: 150px;
+}

@@ -65,26 +65,4 @@ h1 {
 
 }
 
-/* Browser 768 or less */
-@media screen and (max-width: 768px) {
-    
-    .second-nav {
-        
-        margin-left: 0;
-        padding-left: 0;
-        
-    }
-    
-}
-
-/* Browser 980 or less */
-@media screen and (max-width: 980px) {
-
-    .second-nav {
-        float: none;
-        margin-left: 0;
-        padding-left: 0;
-        
-    }
-}
    
