@@ -3,91 +3,73 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-
-    <!-- Meta ViewPort Tag from Bootstrap -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
-    <!-- Secleted Fonts from Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
 
-    <!-- Link to Customizing Style Sheet -->
-    <link rel="stylesheet" href="assets/css/stylecontact.css">
-
-    <title>Contact</title>
+    <title>Dorine Ketchiozo</title>
   </head>
+  <body class="bg-light">
 
-  <body>
-    <!-- To copy working nav from index -->
-    <header>
-      <!-- Start 2 NavBars - Responsiveness Handle with Media Queries -->
-      <div class="container-fluid bg-light">
-  
-        <div class="row wrapper">
-  
-          <div class="col-sm-12 col-md-6 first-nav">
-  
-            <a class="navbar-brand p-3 ml-0 bg-success text-white" href="#">Dorine Ketchiozo</a>
-  
-          </div>
-  
-          <div class="col-sm-12 col-md-6 second-nav">
-            <nav>
-              <ul class="nav justify-content-end>">
-                <li class="nav-item">
-                  <a class="nav-link active text-dark" href="index.html">About Me </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark border-left" href="portfolio.html">Portfolio </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark border-left" href="contact.html">Contact</a>
-                </li>
-  
-      </nav>
-  
-      </header>
-
+    <div class="row bg-white shadow-sm">
+      <div class="col-md-6">
+          <h1 class="p-4 mb-0 text-white bg-success text-center float-md-left ml-md-3"> Dorine Ketchiozo  </h1>
+      </div>
+      <div class="col-md-6 d-flex flex-row justify-content-center align-items-center text-muted "> 
+          <a class="m-3 text-muted ml-md-auto" href="index.html">About Me</a>| 
+          <a class="m-3 text-muted" href="portfolio.html">Portfolio</a>|
+          <a class="m-3 text-muted" href="contact.html">Contact</a>    
+      </div>
+      
+     </div>
 
     <main>
-      <div class="container bg-light mt-4">
-
-        <div class="row wrapper">
-          <div class="col">
+      <div class="row">
+        <div class="col-lg-9">
+            <div class="card m-3 mb-5 ml-5">
+                <div class="card-body">
               
-              <h1 class="border-bottom pb-4">Contact</h1>
+                <h1 class="text-success">Contact</h1>
+                <hr class="bg-success">
            
              
-              <!-- Begining of form -->
+                <!-- Begining of form -->
 
-              <form>  
-                <div class="form-group">
-                  <label for="inputAddress">Name</label>
-                  <input type="text" class="form-control" id="inputName" placeholder="John Smith">
-                </div>
+                <form method="post" action="mailto:dketchiozo@gmail.com" enctype="text/plain">
+                  <div class="form-group">
+                    <label for="inputAddress">Name</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="John Smith">
+                  </div>
 
-              <div class="form-group">
-                  <label for="exampleFormControlInput1">Email </label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Email </label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
 
-              <div class="form-group">
-                  <label for="exampleFormControlTextarea1">Message</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
-              </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                  </div>
 
-              <button type="submit" class="btn bg-success text-white">Submit</button>
-              </form>
+                  <button type="submit" class="btn bg-success text-white" value="send">Submit</button>
+                </form>
 
 
+               </div>
+            </div>
           </div>
         </div>
-      </div>
 
     </main>
 
+    <div class="row">
+      <div class="col">
+          <div class="copyright text-center text-white bg-secondary border-top border-success py-4" style="border-top-width: medium !important"> 
+              <div>&#169; Copyright 2019 <a href="https://github.com/Dorinetk"><img src="Assets/Images/github.png"></a> <a href="https://www.linkedin.com/in/ketchdt/"><img src="Assets/Images/linkedin.png"> </a></div>
+          </div>
+      </div>
+   </div>
 
 
     <!-- Optional JavaScript -->

@@ -3,109 +3,93 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-
-    <!-- Meta ViewPort Tag from Bootstrap -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
-    <!-- Secleted Fonts from Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
 
-    <!-- Link to Customizing Style Sheet -->
-    <link rel="stylesheet" href="assets/css/styleportfolio.css">
-
-    <title>Portfolio</title>
+    <!-- Style Sheet-->
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
+    <title>Dorine Ketchiozo</title>
   </head>
-
-  <body>
+  <body class="bg-light">
     
-    <!-- copy nav from index.html -->
-    <header>
-      <!-- Start 2 NavBars - Responsiveness Handle with Media Queries -->
-      <div class="container-fluid bg-light">
-  
-        <div class="row wrapper">
-  
-          <div class="col-sm-12 col-md-6 first-nav">
-  
-            <a class="navbar-brand p-3 ml-0 bg-success text-white" href="#">Dorine Ketchiozo</a>
-  
-          </div>
-  
-          <div class="col-sm-12 col-md-6 second-nav">
-            <nav>
-              <ul class="nav justify-content-end>">
-                <li class="nav-item">
-                  <a class="nav-link active text-dark" href="index.html">About Me </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark border-left" href="portfolio.html">Portfolio </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark border-left" href="contact.html">Contact</a>
-                </li>
-  
-      </nav>
-  
-      </header>
-    <!-- End Nav Bar -->
-   
+    <div class="row bg-white shadow-sm">
+      <div class="col-md-6">
+          <h1 class="p-4 mb-0 text-white bg-success text-center float-md-left ml-md-3"> Dorine Ketchiozo  </h1>
+      </div>
+      <div class="col-md-6 d-flex flex-row justify-content-center align-items-center text-muted "> 
+          <a class="m-3 text-muted ml-md-auto" href="index.html">About Me</a>| 
+          <a class="m-3 text-muted" href="portfolio.html">Portfolio</a>|
+          <a class="m-3 text-muted" href="contact.html">Contact</a>    
+      </div>
+    </div>
+      
     <!-- Main Content -->
 
-  
-    <div class="gallery" id="gallery">
+  <div class="row">
+    <div class="col-lg-9">
+      <div class="card m-3 mb-5">
+          <div class="card-body">
+            <h1 class="text-success">Portfolio</h1>
+            <hr class="bg-success">  
+            <div class="row">
 
-        <h1>Portfolio</h1>
-
-
-        <div class="row border-top border-success mb-4 pt-5">
-
-          <div class="col-sm-12 col-md-6 col-lg-4 mb-4 mr-4 ml-4" >
-            
-                <span class="d-block p-2 bg-success text-white">Word Guess</span>
-                <img class="img-fluid" src="./Assets/Images/alex-knight-2EJCSULRwC8-unsplash.jpg" alt="a robot"/>
-          </div>
-
-         <div class="col-sm-12 col-md-6 col-lg-4  mb-4 mr-4" >
-          <span class="d-block p-2 bg-success text-white">RPG Game</span>
-            <img class="img-fluid" src="./Assets/Images/anas-alshanti-feXpdV001o4-unsplash.jpg" alt="computer keyboard"/> 
-         </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-4 mb-4 mr-4 ml-4">
-            <span class="d-block p-2 bg-success text-white">Trivia Game</span>
-            <img class="img-fluid"  src="./Assets/Images/anastasia-zhenina-E4XARZNDjzI-unsplash.jpg" alt="a bulb"/> 
-            
-          </div>
-
-          <div class="col-sm-12 col-md-6 col-lg-4 mb-4 mr-4" >
-            <span class="d-block p-2 bg-success text-white">Info Widdget</span>
-              <img class="img-fluid"  src="./Assets/Images/chris-ried-ieic5Tq8YMk-unsplash.jpg" alt="computer code"/>
-          </div>
-
-        </div>
-        <div class="row">
-
+              <div class="col-md-6 picturebox">
+                <div class="project position-relative"> 
+                  <h4 class="bg-success text-white p-2 w-100" >Group Project 1:
+                  <a href="https://masonstafford.github.io/projone/" class="text-white" target="_blank">Deployed</a>|
+                  <a href="https://github.com/masonstafford/projone/" class="text-white" target="_blank">Repository</a>
+                  </h4>
+                  <img src="Assets/Images/projonescrsht.png" class="img-fluid mb-4" alt="Group Project Parmesan">
+                </div>
+              </div>
+              <div class="col-md-6 picturebox">
+                <div class="project position-relative"> 
+                  <h4 class="bg-success text-white p-2 w-100" >Weather Planner: 
+                  <a href="https://dorinetk.github.io/WeatherDashboard/" class="text-white" target="_blank">Deployed</a>| 
+                  <a href="https://github.com/Dorinetk/WeatherDashboard" class="text-white" target="_blank">Repository</a>
+                  </h4> 
+                  <img src="Assets/Images/multiplecitiesweather.png" class="img-fluid mb-4" alt="Weather Planner">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 picturebox">
+                <div class="project position-relative"> 
+                  <h4 class="bg-success text-white p-2 w-100" >Secured Password Generator:
+                    <a href="https://dorinetk.github.io/passwordgenerator/" class="text-white" target="_blank">Deployed</a>|
+                    <a href="https://github.com/Dorinetk/passwordgenerator" class="text-white" target="_blank">Repository</a>
+                  </h4> 
+                  
+                  <img src="Assets/Images/securedpassword.png" class="img-fluid mb-4" alt="Secured Password Generator">
+                </div>
           
-          <div class="col-sm-12 col-md-6 col-lg-4 mb-4 mr-4 ml-4" >
-            <!-- style="background-image: url('assets/images/marvin-meyer-SYTO3xs06fU-unsplash.jpg');"??-->
-            <span class="d-block p-2 bg-success text-white">Rock Packet Scissors</span>
-            
-              <img class="img-fluid"  src="./Assets/Images/marvin-meyer-SYTO3xs06fU-unsplash.jpg" alt="several hands on their keyboard"/>
-            
+              </div>
+              <div class="col-md-6 picturebox">
+                <div class="project position-relative"> 
+                  <h4 class="bg-success text-white p-2 w-100" >Code Quiz:
+                    <a href="https://dorinetk.github.io/passwordgenerator/" class="text-white" target="_blank">Deployed</a>|
+                    <a href="https://dorinetk.github.io/codequiz/" class="text-white" target="_blank">Repository</a>
+                  </h4> 
+                 <img src="Assets/Images/codequiz.png" class="img-fluid mb-4" alt="Code Quiz">
+                </div> 
+              </div>
+            </div>
           </div>
-
-        </div>
-        
-
+      </div>
     </div>
-
-
+  </div>
+</div>
 
     <!-- Copy footer from index.html -->
+    <div class="row">
+      <div class="col">
+          <div class="copyright text-center text-white bg-secondary border-top border-success py-4" style="border-top-width: medium !important"> 
+              <div>&#169; Copyright 2019 <a href="https://github.com/Dorinetk"><img src="Assets/Images/github.png"></a> <a href="https://www.linkedin.com/in/ketchdt/"><img src="Assets/Images/linkedin.png"> </a></div>
+          </div>
+      </div>
+  </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
