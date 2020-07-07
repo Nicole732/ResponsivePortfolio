@@ -8,3 +8,8 @@
     width: 100%;
     height: 100%;
 } */
+
+#jumbotronlink {
+    text-decoration: underlined;
+    color: white;
+}
