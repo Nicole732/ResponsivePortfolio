@@ -4,6 +4,10 @@
    
 }
 
+.bodyindex {
+    height: 100%;
+}
+
 /* .picturebox {
     width: 100%;
     height: 100%;
@@ -14,15 +18,19 @@
     font-size: 20px;
 }
 
+.jumbotronindex {
+    background-image: url("../Images/coverimage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
 #jumbotronlink {
     text-decoration: underlined;
     color: white;
 }
 
 
-#jumbotronindex {
-    background-image: url("../Images/chris-ried-ieic5Tq8YMk-unsplash.jpg  ");
-}
 
 
 
