@@ -7,11 +7,12 @@ The link to the repository is:https://github.com/Dorinetk/ResponsivePortfolio/.
 
 Here are few screenshots of the various pages:
 
-<img width="463" alt="Screen Shot 2020-02-23 at 12 08 08 AM" src="https://user-images.githubusercontent.com/58992132/75103986-d860c300-55d0-11ea-85fe-b336acf3772b.png">
-<img width="1428" alt="Screen Shot 2020-02-23 at 12 07 37 AM" src="https://user-images.githubusercontent.com/58992132/75103987-dac31d00-55d0-11ea-854f-ac6f7a1feb12.png">
-<img width="561" alt="Screen Shot 2020-02-23 at 12 08 45 AM" src="https://user-images.githubusercontent.com/58992132/75103983-d565d280-55d0-11ea-96da-fa87cb74cdbc.png">
-<img width="1048" alt="Screen Shot 2020-02-23 at 12 08 20 AM" src="https://user-images.githubusercontent.com/58992132/75103985-d72f9600-55d0-11ea-9343-9189cf62bc3e.png">
-<img width="1051" alt="Screen Shot 2020-02-23 at 12 08 27 AM" src="https://user-images.githubusercontent.com/58992132/75103984-d696ff80-55d0-11ea-8cf7-291cf8a75034.png">
+<img width="1400" alt="Screen Shot 2020-07-08 at 1 19 40 PM" src="https://user-images.githubusercontent.com/58992132/86950128-bb5f0380-c11d-11ea-81e4-556e193ebc56.png">
+<img width="1123" alt="Screen Shot 2020-07-08 at 12 35 34 PM" src="https://user-images.githubusercontent.com/58992132/86946909-0cb8c400-c119-11ea-856b-f135046acf91.png">
+<img width="1122" alt="Screen Shot 2020-07-08 at 12 35 45 PM" src="https://user-images.githubusercontent.com/58992132/86946908-0c202d80-c119-11ea-980b-648894359f86.png">
+<img width="1415" alt="Screen Shot 2020-07-08 at 12 34 08 PM" src="https://user-images.githubusercontent.com/58992132/86946912-0cb8c400-c119-11ea-80f2-8f76dc1c24a2.png">
+
+
 
 
 
